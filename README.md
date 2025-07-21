@@ -1,5 +1,5 @@
 # filament-reconstuction-tool
-A tool for reconstructing filamentous structures considering a Z-stack from a monocular light microscope as input
+A tool for reconstructing filamentous structures considering a Z-stack from a monocular light microscope as input.
 
 A repository with the code and data for reproducing the results in: 3D graph reconstruction of filamentous structures from z-stack images.
 Article authors: Oscar Sten, Emanuela del Dottore, Marilena Ronzan, 
@@ -29,25 +29,25 @@ Contains:
 
  
 
-Result_tables:
+### Result_tables:
 The excel spreadsheet contains the data and computations in Table 3.
 
 
-Data:
+### Data:
 Contains all data including images and annotations.
 
-GT_overlap_tests
+### GT_overlap_tests
 Contains the annotation files for reproducing the results in Table 3.
 
 Copyright (2025) Oscar Sten.
 
-Image_Z_stacks_fungi
+### Image_Z_stacks_fungi
 Contains Z-stack images of samples of the fungus Rhizophagus Irregolaris
 used to reproduce the results in Figures 7, 8, and 9.
 
-Copyright (2024) Oscar Sten.
+Copyright (2025) Oscar Sten.
 
-Images_2D_fungi
+### Images_2D_fungi
 Contains 2D images of samples of the fungus Rhizophagus Irregolaris.
 
 Original publication: Cardini, A., Pellegrino, E., Del Dottore, E. et al. 
@@ -57,22 +57,22 @@ length of roots and fungal hyphae of dense mycelia. Mycorrhiza 30,
 
 Copyright (2020) Cardini, A., Pellegrino, E., Del Dottore, E. et al.
 
-Prototype(1-5)
+### Prototype(1-5)
 Contains the images of Prototypes used to reproduce the results in  Figure 6 and Table 2.
 
-Copyright (2024) Oscar Sten.
+Copyright (2025) Oscar Sten.
 
-Imgs4TimeLapse
+### Imgs4TimeLapse
 
 Contains images for reproducing the graphs in Figure 10.
 
-CAD-files
+### CAD-files
 
 Contains the stl-files used for fabricating the 3D-printed prototypes.
 
  
 
-Remarks
+### Remarks
 
 The branch/crossing detection and branch/crossing matching tests are not fully automated, since a couple of cases were too complex to annotate. In these cases the person performing the test must determine visually if the algorithm's assessment is correct or not.
 
@@ -80,4 +80,4 @@ In image "o.jpg", a filament in the top right corner traverses multiple structur
  "false negative" must be added.
 
 
-The reader/reviewer who is currious about the functionaliy of the graph merging algorithm many run the function mergeGraphs.m in debug mode. Just open the function and set debug_mode = 1 instead of debug_mode = 0.
+The reader who is currious about the functionaliy of the graph merging algorithm many run the function mergeGraphs.m in debug mode. Just open the function and set debug_mode = 1 instead of debug_mode = 0.
