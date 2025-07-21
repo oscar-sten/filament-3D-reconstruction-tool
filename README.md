@@ -1,4 +1,4 @@
-# filament-reconstuction-tool
+# Filament 3D reconstruction tool
 A tool for reconstructing filamentous structures considering a Z-stack from a monocular light microscope as input.
 
 A repository with the code and data for reproducing the results in: 3D graph reconstruction of filamentous structures from z-stack images.
